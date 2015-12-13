@@ -26,3 +26,31 @@ nav {
   max-height: 550px;
   opacity: 0.4;
 }
+
+.slide {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #ddd;
+  &.left {
+    text-align: left;
+    padding-left: 60px;
+    h2 {
+      color: $durley_blue;
+    }
+  }
+  &.center {
+    text-align: center;
+    h2 {
+      color: $durley_orange;
+    }
+  }
+  &.right {
+    text-align: right;
+    h2 {
+      color: $durley_green;
+    }
+  }
+  p {
+    width: 75%;
+  }
+}
