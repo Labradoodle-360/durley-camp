@@ -1,0 +1,25 @@
+$durley_orange: #f58020;
+$durley_green:  #85bc40;
+$durley_blue:   #1893e4;
+$durley_yellow: #eae206;
+$durley_red:    #f84c43;
+
+@function durley_orange_rgba($opacity) {
+  @return rgba(245, 128, 32, $opacity);
+}
+
+@function durley_green_rgba($opacity) {
+  @return rgba(133, 188, 64, $opacity);
+}
+
+@function durley_blue_rgba($opacity) {
+  @return rgba(24, 147, 228, $opacity);
+}
+
+@function durley_yellow_rgba($opacity) {
+  @return rgba(234, 226, 6, $opacity);
+}
+
+@function durley_red_rgba($opacity) {
+  @return rgba(248, 76, 67, $opacity);
+}

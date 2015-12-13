@@ -6,44 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home | Durley Camp</title>
         <link rel="stylesheet" href="css/foundation.css">
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="top-bar">
-            <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="has-submenu">
-                        <a href="#">Camps</a>
-                        <ul class="submenu menu vertical" data-submenu>
-                            <li><a href="#">Day Camp<span class="float-right">(K-2)</span></a></li>
-                            <li><a href="#">Trailblazer<span class="float-right">(2-4)</span></a></li>
-                            <li><a href="#">Guide<span class="float-right">(4-6)</span></a></li>
-                            <li><a href="#">Young Teen<span class="float-right">(6-9)</span></a></li>
-                            <li><a href="#">Senior Teen<span class="float-right">(9-13)</span></a></li>
-                            <li><a href="#">Family Camp</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Calendar</a></li>
-                    <li class="has-submenu">
-                        <a href="#">About</a>
-                        <ul class="submenu menu vertical" data-submenu>
-                            <li><a href="#">Get Directions</a></li>
-                            <li><a href="#">Our Staff</a></li>
-                            <li><a href="#">News & Events</a></li>
-                            <li><a href="#">Giving</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-submenu">
-                        <a href="#">Parents</a>
-                        <ul class="submenu menu vertical" data-submenu>
-                            <li><a href="#">Camper's Daily Schedule</a></li>
-                        </ul>
-                    </li>
-                </ul>
+        <header class="homepage">
+            <img src="img/backdrop.png" class="banner">
+            <img src="img/logo.png" class="logo">
+            <div id="featured-content">
+                <a class="float-left orange">
+                    <div class="image float-left"><img src="img/young-teen-1.png"></div>
+                    <div class="title float-left">Youth Camps</div>
+                    <br class="clearfix">
+                </a>
+                <a class="float-left green">
+                    <div class="image float-left"><img src="img/family-camp.png"></div>
+                    <div class="title float-left">Family Camp</div>
+                    <br class="clearfix">
+                </a>
+                <a href="#" class="float-left blue">
+                    <div class="image float-left"><img src="img/rentals.png"></div>
+                    <div class="title float-left">Rentals</div>
+                    <br class="clearfix">
+                </a>
+                <a href="#" class="float-left red">
+                    <div class="image float-left"><img src="img/news-events.png"></div>
+                    <div class="title float-left">News & Events</div>
+                    <br class="clearfix">
+                </a>
+                <br class="clearfix">
             </div>
-        </div>
+        </header>
+        <br class="clearfix">
+        <nav>
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="index.html">Home</a></li>
+                <li class="has-submenu">
+                    <a href="#">Camps</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#">Day Camp<span class="float-right">(K-2)</span></a></li>
+                        <li><a href="#">Trailblazer<span class="float-right">(2-4)</span></a></li>
+                        <li><a href="#">Guide<span class="float-right">(4-6)</span></a></li>
+                        <li><a href="#">Young Teen<span class="float-right">(6-9)</span></a></li>
+                        <li><a href="#">Senior Teen<span class="float-right">(9-13)</span></a></li>
+                        <li><a href="#">Family Camp</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Calendar</a></li>
+                <li class="has-submenu">
+                    <a href="#">About</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#">Get Directions</a></li>
+                        <li><a href="#">Our Staff</a></li>
+                        <li><a href="#">News & Events</a></li>
+                        <li><a href="#">Giving</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
         <script src="js/vendor/jquery.min.js"></script>
         <script src="js/vendor/what-input.min.js"></script>
         <script src="js/foundation.min.js"></script>
