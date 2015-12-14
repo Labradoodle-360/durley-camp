@@ -2,6 +2,16 @@
 
 @import "partials/pages/homepage";
 
+header {
+  text-align: center;
+  height: 350px;
+  .banner {
+    position: absolute;
+    left: 0;
+    z-index: -999;
+  }
+}
+
 nav {
   background-color: $durley_blue;
   ul {
