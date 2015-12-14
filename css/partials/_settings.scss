@@ -1,8 +1,11 @@
-$durley_orange: #f58020;
-$durley_green:  #85bc40;
-$durley_blue:   #1893e4;
-$durley_yellow: #eae206;
-$durley_red:    #f84c43;
+$durley_orange:     #f58020;
+$durley_green:      #85bc40;
+
+$durley_blue:       #1893e4;
+$durley_blue_hover: #1c88cf;
+
+$durley_yellow:     #eae206;
+$durley_red:        #f84c43;
 
 @function durley_orange_rgba($opacity) {
   @return rgba(245, 128, 32, $opacity);
