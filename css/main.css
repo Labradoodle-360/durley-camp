@@ -65,6 +65,9 @@ header.homepage {
   #featured-content .red .title {
     background-color: rgba(248, 76, 67, 0.8); }
 
+header.contact {
+  height: 350px; }
+
 header {
   text-align: center;
   height: 350px; }
