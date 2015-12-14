@@ -105,18 +105,23 @@ nav {
       color: #1893e4; }
     .slide.left .content {
       padding-left: 60px; }
+      .slide.left .content p {
+        width: 75%; }
   .slide.center {
     text-align: center; }
     .slide.center h2 {
       color: #f58020; }
+    .slide.center .content {
+      width: 40%;
+      color: #fff;
+      margin: 0 auto;
+      font-size: 14pt; }
   .slide.right {
     text-align: right; }
     .slide.right h2 {
       color: #85bc40; }
     .slide.right .content {
       padding-right: 60px; }
-  .slide p {
-    width: 75%; }
   .slide.has-background {
     padding-top: 0;
     padding-bottom: 77px;
