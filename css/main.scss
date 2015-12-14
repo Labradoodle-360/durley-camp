@@ -51,12 +51,21 @@ nav {
     }
     .content {
       padding-left: 60px;
+      p {
+        width: 75%;
+      }
     }
   }
   &.center {
     text-align: center;
     h2 {
       color: $durley_orange;
+    }
+    .content {
+      width: 40%;
+      color: #fff;
+      margin: 0 auto;
+      font-size: 14pt;
     }
   }
   &.right {
@@ -67,9 +76,6 @@ nav {
     .content {
       padding-right: 60px;
     }
-  }
-  p {
-    width: 75%;
   }
   &.has-background {
     padding-top: 0;
